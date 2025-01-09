@@ -256,6 +256,13 @@ footer h6 {
     color: #b6ac9d;
     font-size: .8rem;  
     text-decoration: none;
+    padding-bottom: 50px;
+}
+
+#link-map:hover {
+    color: #888074;
+    font-size: .8rem;  
+    text-decoration: none;
 }
 
 #text-contato {
@@ -275,9 +282,9 @@ textarea {
 }
 
 #img-fachada {
-    padding-top: 150px;
+    padding-top: 200px;
     padding-bottom: 20px ;
-    width: 40vw;
+    width: 100%; 
 }
 
 /* PAG PROJETOS GERAL CADA CLIENTE */
