@@ -7,4 +7,7 @@ function filtrarProjetos(tipo) {
             projeto.classList.remove('visible');
         }
     });
-}
+} //função para o filtro dinâmico
+
+//carregamento de pagina
+

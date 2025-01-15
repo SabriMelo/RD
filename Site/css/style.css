@@ -322,6 +322,14 @@ footer h6 {
     transition: transform 0.3s;
 }
 
+#nomes-colab {
+    text-align: center;
+    font-size: 1rem;
+    color: #b6ac9d;
+    font-family: "Poppins", serif;
+    margin: 0 5px;
+}
+
 /*  fim pag Sobre  */
 
 /* PAGINA CONTATO */
