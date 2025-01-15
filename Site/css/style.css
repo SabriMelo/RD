@@ -25,7 +25,7 @@ body {
         position: relative;
         width: 100vw;
         height: 95vh;
-        overflow: hidden;   
+        overflow: hidden;
     }
 }
 
@@ -50,25 +50,28 @@ body p {
 #color-nav {
     background-color: #C7BEB1;
 }
+
 header {
     font-family: "Poppins", serif;
     position: fixed;
-    z-index: 1000; 
+    z-index: 1000;
     top: 0;
     width: 100%;
     background-color: #C7BEB1;
 }
+
 header ul li {
     padding-right: 15px;
     font-size: 1rem;
 }
 
-header ul li a{
-    color:white;
-    
+header ul li a {
+    color: white;
+
 }
-header ul li a:hover{
-    color:whitesmoke;
+
+header ul li a:hover {
+    color: whitesmoke;
 }
 
 header nav .navbar-toggler {
@@ -81,11 +84,11 @@ header nav .navbar-toggler {
     color: white;
 }
 
-  #button-contato {
+#button-contato {
     background-color: #b6ac9d;
     border-color: #b6ac9d;
     margin-bottom: 50px;
-    
+
 }
 
 #button-contato:hover {
@@ -104,8 +107,9 @@ header nav .navbar-toggler {
 .project-image-index {
     position: relative;
     overflow: hidden;
-    
+
 }
+
 .project-image-index a img {
     width: 100%;
     height: auto;
@@ -115,7 +119,8 @@ header nav .navbar-toggler {
 .project-image-index:hover a img {
     transform: scale(1.1);
     box-shadow: 0px 8px 8px #C7BEB1;
-} 
+}
+
 .overlay {
     position: absolute;
     top: 0;
@@ -151,7 +156,7 @@ header nav .navbar-toggler {
 footer {
     background-color: #C7BEB1;
     padding: 30px 0px 20px 0px;
-    position: relative; 
+    position: relative;
 }
 
 @media (min-width: 1200px) {
@@ -167,29 +172,36 @@ footer h4 {
     font-family: "Poppins", serif;
     font-size: 1.1rem;
     text-align: start;
-    
+
 }
+
 footer .navbar-nav a {
     color: white;
     font-size: .9rem;
     font-family: "Poppins", serif;
 
-}footer .navbar-nav a:hover {
+}
+
+footer .navbar-nav a:hover {
     color: #f4f4f4;
     text-decoration: none;
 
 }
+
 footer ul {
     list-style: none;
 }
+
 footer ul li {
     float: right;
-    margin:5px;
+    margin: 5px;
 }
-footer ul li a  {
+
+footer ul li a {
     color: white;
 }
-footer ul li a:hover  {
+
+footer ul li a:hover {
     color: #f4f4f4;
 }
 
@@ -198,13 +210,15 @@ footer h6 {
     text-align: right;
     color: whitesmoke;
 }
-footer h6 a{
+
+footer h6 a {
     color: whitesmoke;
 }
 
-footer h6 a:hover{
+footer h6 a:hover {
     color: #f4f4f4;
 }
+
 footer h6 {
     padding-right: 40px;
 }
@@ -226,6 +240,7 @@ footer h6 {
     height: auto;
     transition: transform 0.3s;
 }
+
 .project-image:hover {
     transform: scale(1.1);
 }
@@ -233,9 +248,33 @@ footer h6 {
 #text-projetos {
     color: #b6ac9d;
     padding-top: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     font-size: 2.2rem;
-    
+
+}
+
+#nav-projetos {
+    padding-right: 15px;
+    font-size: 1rem;
+    color: #b6ac9d;
+    font-family: "Poppins", serif;
+    padding-bottom: 40px;
+
+}
+
+#nav-projetos:hover {
+    color: #C7BEB1;
+
+}
+
+/* Filtro de Projetos  */
+
+.projeto {
+    display: none;
+}
+
+.projeto.visible {
+    display: block;
 }
 
 /*  fim pag projetos  */
@@ -246,7 +285,7 @@ footer h6 {
 #text-Clipping {
     color: #b6ac9d;
     padding-top: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     font-size: 2.2rem;
 }
 
@@ -258,9 +297,10 @@ footer h6 {
 #text-sobre {
     color: #b6ac9d;
     padding-top: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     font-size: 2.2rem;
 }
+
 #h4-sobre-romero {
     color: #b6ac9d;
     padding-bottom: 50px;
@@ -281,6 +321,7 @@ footer h6 {
     height: auto;
     transition: transform 0.3s;
 }
+
 /*  fim pag Sobre  */
 
 /* PAGINA CONTATO */
@@ -297,7 +338,7 @@ footer h6 {
 .custom-form button {
     background-color: #b6ac9d;
     border-color: #b6ac9d;
-    
+
 }
 
 .custom-form button:hover {
@@ -321,14 +362,14 @@ footer h6 {
 
 #link-map {
     color: #b6ac9d;
-    font-size: .8rem;  
+    font-size: .8rem;
     text-decoration: none;
     padding-bottom: 50px;
 }
 
 #link-map:hover {
     color: #888074;
-    font-size: .8rem;  
+    font-size: .8rem;
     text-decoration: none;
 }
 
@@ -336,7 +377,7 @@ footer h6 {
     color: #b6ac9d;
     padding-top: 100px;
     font-size: 2.2rem;
-    
+
 }
 
 .required-obrigatorio {
@@ -345,13 +386,13 @@ footer h6 {
 
 textarea {
     max-height: 150px;
-    
+
 }
 
 #img-fachada {
     padding-top: 200px;
-    padding-bottom: 20px ;
-    width: 100%; 
+    padding-bottom: 20px;
+    width: 100%;
 }
 
 /* PAG PROJETOS GERAL CADA CLIENTE */
@@ -364,3 +405,35 @@ textarea {
 }
 
 /* adiconando miniaturas nas pag projetos  */
+.thumbnails-container {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    gap: 5px;
+    padding-bottom: 10px;
+}
+
+.thumbnails-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.thumbnails-container::-webkit-scrollbar-thumb {
+    background: whitesmoke;
+    border-radius: 5px;
+}
+
+.thumbnails-container::-webkit-scrollbar-track {
+    background: #b6ac9d;
+}
+
+.preview {
+    cursor: pointer;
+    opacity: 0.8;
+    max-height: 80px;
+    object-fit: cover;
+}
+
+.preview:hover {
+    opacity: 1;
+
+}
