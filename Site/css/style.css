@@ -301,6 +301,14 @@ footer h6 {
     font-size: 2.2rem;
 }
 
+#text-equipe {
+    color: #b6ac9d;
+    padding-top: 70px;
+    padding-bottom: 10px;
+    font-size: 2.2rem;
+
+}
+
 #h4-sobre-romero {
     color: #b6ac9d;
     padding-bottom: 50px;
@@ -324,7 +332,7 @@ footer h6 {
 
 #nomes-colab {
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: #b6ac9d;
     font-family: "Poppins", serif;
     margin: 0 5px;
