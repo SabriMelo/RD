@@ -290,6 +290,15 @@ footer h6 {
     font-size: 2.2rem;
 }
 
+/* Casacor 2023 */
+@media (min-width: 1200px) {
+    img.img-fluid{
+        max-width: 85%;
+        height: auto;
+        margin-left: 8rem;
+    }
+}
+
 
 
 /*  fim pag Clipping  */
