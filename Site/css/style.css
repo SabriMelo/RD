@@ -35,7 +35,20 @@ body #text-meio-index {
     color: #b6ac9d;
     font-family: "Poppins", serif;
     margin: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
+
+#text-p-index {
+    font-size: 1.2rem;
+    color: #b6ac9d;
+    font-family: "Poppins", serif;
+    margin: 0px 20px 20px 20px;
+    
+
+}
+
+
 
 body p {
     font-size: 1.2rem;
@@ -87,7 +100,8 @@ header nav .navbar-toggler {
 #button-contato {
     background-color: #b6ac9d;
     border-color: #b6ac9d;
-    margin-bottom: 50px;
+    margin-bottom: 120px;
+    margin-top: 100px;
 
 }
 
@@ -308,23 +322,26 @@ footer h6 {
 /*  inicio pag Sobre  */
 #text-sobre {
     color: #b6ac9d;
+    padding-top: 30px;
+    font-size: 2.2rem;
+}
+#text-escrit {
+    color: #b6ac9d;
     padding-top: 100px;
     padding-bottom: 20px;
     font-size: 2.2rem;
 }
-
 #text-equipe {
     color: #b6ac9d;
     padding-top: 70px;
     padding-bottom: 10px;
     font-size: 2.2rem;
-
 }
 
 #h4-sobre-romero {
     color: #b6ac9d;
     padding-bottom: 50px;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     text-align: center;
 }
 
@@ -341,13 +358,35 @@ footer h6 {
     height: auto;
     transition: transform 0.3s;
 }
-
 #nomes-colab {
     text-align: center;
     font-size: 1.1rem;
     color: #b6ac9d;
     font-family: "Poppins", serif;
     margin: 0 5px;
+}
+#img-romero {
+    width: 100%;
+    padding-bottom: 30px;
+}
+.text-p-sobre{
+    font-size: 1.2rem;
+    color: #b6ac9d;
+    font-family: "Poppins", serif;
+    margin: 0px 20px 20px 20px;
+    list-style-type: none;
+    text-align: justify;
+}
+#h4-title-escrit {
+    font-size: 1.4rem;
+    color: #b6ac9d;
+    font-family: "Poppins", serif;
+    margin: 0px 20px 20px 20px;
+    font-style: italic;   
+}
+
+.cont-arqs {
+    padding-top: 100px;
 }
 
 /*  fim pag Sobre  */
