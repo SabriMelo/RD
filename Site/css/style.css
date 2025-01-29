@@ -370,7 +370,7 @@ footer h6 {
     padding-bottom: 30px;
 }
 .text-p-sobre{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #b6ac9d;
     font-family: "Poppins", serif;
     margin: 0px 20px 20px 20px;
@@ -383,6 +383,8 @@ footer h6 {
     font-family: "Poppins", serif;
     margin: 0px 20px 20px 20px;
     font-style: italic;   
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .cont-arqs {
