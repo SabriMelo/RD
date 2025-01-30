@@ -20,14 +20,6 @@ body {
     text-align: justify;
 }
 
-@media (min-width: 1200px) {
-    .carousel-inner {
-        position: relative;
-        width: 100vw;
-        height: 95vh;
-        overflow: hidden;
-    }
-}
 
 
 body #text-meio-index {
@@ -112,8 +104,28 @@ header nav .navbar-toggler {
 
 /* carousel   */
 .carousel-wd {
+    max-width: 90%;
+    height: 50% ;
+    margin: 0 auto;
+    
+}
+
+.carousel-inner img {
     width: 100%;
-    height: 70% !important;
+    height: auto; /* Mantém a proporção */
+}
+
+.carousel {
+    height: auto; /* Ajusta a altura dinamicamente */
+}
+
+@media (min-width: 1200px) {
+    .carousel-inner {
+        position: relative;
+        width: 100vw;
+        height: 95vh;
+        overflow: hidden;
+    }
 }
 
 
