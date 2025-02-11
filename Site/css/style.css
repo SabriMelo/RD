@@ -27,8 +27,8 @@ body #text-meio-index {
     color: #b6ac9d;
     font-family: "Poppins", serif;
     margin: 25px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 15px;
+    padding-bottom: 40px;
 }
 
 #text-p-index {
@@ -128,6 +128,15 @@ header nav .navbar-toggler {
     }
 }
 
+/* video  */
+.video-index {
+    padding-top: 62px;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    
+        
+}
 
 /* INDEX IMAGENS PROJ  */
 
