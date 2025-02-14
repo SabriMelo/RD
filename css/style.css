@@ -271,6 +271,12 @@ footer h6 {
 
 /*  inicio pag projetos  */
 
+#navegador-projetos{
+    display: flex;
+    flex-direction: row;
+
+}
+
 .project-image {
     width: 100%;
     height: auto;
